@@ -16,6 +16,6 @@ Cada vez que se realiza una de estas acciones, se emite un evento ("CREATED", "U
 
 2º Crear una base de datos en MySQL (pueden usar el [Workbench](https://www.mysql.com/products/workbench/))
 
-3º Tomar los datos de la instancia de Cloud Karafka y de conexción a base de datos, y añadirlos al archivo "application.properties" en customer-msv/src/main/resources/  -> pueden guiarse del ejemplo provisto por CloudKarafka [aquí](https://github.com/CloudKarafka/springboot-kafka-example)
+3º Tomar los datos de la instancia de Cloud Karafka y de conexión a base de datos, y añadirlos al archivo "application.properties" en customer-msv/src/main/resources/  -> pueden guiarse del ejemplo provisto por CloudKarafka [aquí](https://github.com/CloudKarafka/springboot-kafka-example)
 
 4º Correr el proyecto, verificar que todas las conexiones sean correctas y utilizar Postman para hacer peticiones a localhost:8080/api/v1/customers
